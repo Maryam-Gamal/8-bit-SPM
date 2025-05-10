@@ -7,27 +7,27 @@ This project implements **a sequential 8-bit signed Serial-Parallel Multiplier (
 ---
 
 ## Features✨
--Accepts two signed 8-bit binary values:
+- Accepts two signed 8-bit binary values:
 
   - **Multiplier**: SW7–SW0
 
   - **Multiplicand**: SW15–SW8
 
--Computes and displays the signed 16-bit product (up to 5 decimal digits).
+- Computes and displays the signed 16-bit product (up to 5 decimal digits).
 
--Displays:
+- Displays:
 
-  - Sign on leftmost 7-segment display (negative → segment G on)
+  - **Sign** on leftmost 7-segment display (negative → segment G on)
 
-  - Magnitude on right three 7-segment digits (scrollable with buttons)
+  - **Magnitude** on right three 7-segment digits (scrollable with buttons)
 
 - Controls:
 
-  - BTNC: Start multiplication
+  - **BTNC**: Start multiplication
   
-  - BTNL/BTNR: Scroll through the product's decimal digits
+  - **BTNL/BTNR**: Scroll through the product's decimal digits
   
-  - LD0 (LED): Indicates when multiplication is complete
+  - **LD0 (LED)**: Indicates when multiplication is complete
 
 ---
 
