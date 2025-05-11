@@ -34,3 +34,7 @@ The block diagram illustrates the operation of an 8x8 Signed Serial-Parallel Mul
 
 ---
 
+## References
+- https://electronics.stackexchange.com/questions/713730/how-to-convert-16-bit-to-decimal-on-multisim
+- https://en.wikipedia.org/wiki/Double_dabble
+- https://www.microchip.com/content/dam/mchp/documents/OTH/ApplicationNotes/ApplicationNotes/DOC0529.PDF
