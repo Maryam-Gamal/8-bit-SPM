@@ -1,5 +1,5 @@
-# dd1-s25-project1-truth-simplifiers
-# 🔢 Quine-McCluskey Logic Minimization  
+
+# sequential 8-bit signed Serial-Parallel Multiplier (SPM)
 
 ## 📌 Project Overview  
 This project implements **a sequential 8-bit signed Serial-Parallel Multiplier (SPM)** using Logisim Evolution and deploys it on the Basys 3 FPGA board. The design balances the hardware efficiency of serial processing with the performance of parallel inputs, enabling compact multiplication for signed **8-bit** binary numbers.
