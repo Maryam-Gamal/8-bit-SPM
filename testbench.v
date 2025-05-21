@@ -51,15 +51,13 @@ module mul8_bug_checker();
         rst = 0;
         #20;
 
-        // Debug Case 1: 5 x 7 = 35
-        detailed_test(8'd5, 8'd7);
+        // Debug Case 1: -5 x 11 = -55
+        detailed_test(-8'd5, 8'd11);
         
-        // Debug Case 2: -15 x 10 = -150 (Test negative handling)
+        // Debug Case 2:  -128 * 128(Test negative handling)
         detailed_test(-8'd128, -8'd128);
         
-        // Debug Case 3: Edge case -128 x -128 = 16384
-        detailed_test(-8'd10, -8'd15);
-
+      
         // End simulation
         #100;
         $finish;
